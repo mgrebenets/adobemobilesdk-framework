@@ -1,0 +1,6 @@
+framework module AdobeMobileSDK {
+    umbrella header "ADBMobile.h"
+
+    export *
+    module * { export * }
+}
