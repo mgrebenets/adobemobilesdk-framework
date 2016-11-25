@@ -12,11 +12,10 @@ Pod::Spec.new do |s|
   s.license      = { type: "Commercial", text: "Adobe Systems Incorporated All Rights Reserved" }
   s.author       = "Adobe Mobile SDK Team"
 
-  s.platform = :ios
+  s.platform = :watchos, "2.0"
   s.requires_arc = true
   s.libraries = "sqlite3.0"
 
-  s.public_header_files = "AdobeMobileWatchSDK.framework/Versions/A/Headers/*.h"
   s.preserve_paths = "AdobeMobileWatchSDK.framework"
   s.vendored_frameworks = "AdobeMobileWatchSDK.framework"
 end

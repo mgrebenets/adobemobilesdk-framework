@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.libraries = "sqlite3.0"
   s.frameworks = "UIKit", "SystemConfiguration"
 
-  s.public_header_files = "AdobeMobileSDK.framework/Versions/A/Headers/*.h"
   s.preserve_paths = "AdobeMobileSDK.framework"
   s.vendored_frameworks = "AdobeMobileSDK.framework"
 end

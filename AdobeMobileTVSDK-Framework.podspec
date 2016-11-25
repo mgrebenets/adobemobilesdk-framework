@@ -12,12 +12,11 @@ Pod::Spec.new do |s|
   s.license      = { type: "Commercial", text: "Adobe Systems Incorporated All Rights Reserved" }
   s.author       = "Adobe Mobile SDK Team"
 
-  s.platform = :ios
+  s.platform = :tvos, "9.0"
   s.requires_arc = true
   s.libraries = "sqlite3.0"
   s.frameworks = "UIKit", "SystemConfiguration"
 
-  s.public_header_files = "AdobeMobileTVSDK.framework/Versions/A/Headers/*.h"
   s.preserve_paths = "AdobeMobileTVSDK.framework"
   s.vendored_frameworks = "AdobeMobileTVSDK.framework"
 end
