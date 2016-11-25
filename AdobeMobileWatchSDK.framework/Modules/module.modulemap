@@ -1,0 +1,6 @@
+framework module AdobeMobileWatchSDK {
+    umbrella header "ADBMobile.h"
+
+    export *
+    module * { export * }
+}
