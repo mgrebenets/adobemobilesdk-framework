@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    This wrapper can be used in Swift frameworks directly.
                    DESC
   s.homepage     = "https://stash.odp.cba"
-  s.source = { git: "ssh://git@stash.odp.cba:7999/coc/adobemobilesdk-framework.git", tag: "v#{s.version}-iOS" }
+  s.source = { git: "https://github.com/mgrebenets/adobemobilesdk-framework.git", tag: "v#{s.version}-iOS" }
   s.license      = { type: "Commercial", text: "Adobe Systems Incorporated All Rights Reserved" }
   s.author       = "Adobe Mobile SDK Team"
 
